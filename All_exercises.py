@@ -1,22 +1,27 @@
-"""
-Desgloce del ejercicio por funciones y menús
-Funciones:
-- Agregar asignatura
-- Mostrar asignaturas
-- Buscar asignatura
-- Borrar asignatura
-Menús:
-Solo el menú principal
-
--- Menú de opciones ---
-1. Agregar asignatura
-2. Mostrar asignaturas
-3. Buscar asignatura
-4. Borrar asignatura
-5. Salir
-
-/home/camper/Escritorio/Nueva carpeta/exercises-lists-and-dictionaries/Exercise1/Menus/Exercise1_main_menu.py
-"""
 from Exercise1.Menus.Exercise1_main_menu import exercise1
 # Llamamos a la función exercise1() para ejecutar el programa
-exercise1()
+
+while True:
+        # Mostrar el menú
+        print("\n--- Menú de Ejercicios ---")
+        print("1. Ejercicio 1: Lista de Asignaturas")
+        print("2. Ejercicio 2: Asignaturas - Yo estudio...")
+        print("0. Salir")
+
+        # Solicitar la opción del usuario
+        opcion = input("Selecciona un ejercicio (0-3): ")
+
+        # Ejecutar el ejercicio correspondiente
+        if opcion == '1':
+            exercise1()
+        elif opcion == '2':
+            print("""========================
+  Opcion en desarrollo
+========================""")
+            #exercise2()
+        elif opcion == '0':
+            print("Saliendo del programa. ¡Hasta luego!")
+            break
+        else:
+            print("Opción no válida. Por favor, selecciona una opción entre 0 y 3.")
+

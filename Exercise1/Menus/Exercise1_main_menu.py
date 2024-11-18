@@ -4,12 +4,29 @@ from Exercise1.Functions.Funciones import mostrar_asignaturas
 from Exercise1.Functions.Funciones import buscar_asignatura
 from Exercise1.Functions.Funciones import borrar_asignatura
 
+"""
+Desgloce del ejercicio por funciones y menús
+Funciones:
+- Agregar asignatura
+- Mostrar asignaturas
+- Buscar asignatura
+- Borrar asignatura
+Menús:
+Solo el menú principal
+
+-- Menú de opciones ---
+1. Agregar asignatura
+2. Mostrar asignaturas
+3. Buscar asignatura
+4. Borrar asignatura
+5. Salir
+"""
 def exercise1(): # Main menu
     asignaturas = []
-    
+    clear()
     while True:
         # Menú de opciones
-        print("\n--- Menú de opciones ---")
+        print("\n--- Menú de opciones Ejercicio 1 ---")
         print("1. Agregar asignatura")
         print("2. Mostrar asignaturas")
         print("3. Buscar asignatura")
