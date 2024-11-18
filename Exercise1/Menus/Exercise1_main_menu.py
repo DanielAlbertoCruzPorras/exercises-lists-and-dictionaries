@@ -1,4 +1,6 @@
 from Exercise1.Functions.Clear_terminal import clear
+from Exercise1.Functions.Funciones import agregar_asignatura
+from Exercise1.Functions.Funciones import mostrar_asignaturas
 
 def exercise1(): # Main menu
     asignaturas = []
@@ -16,16 +18,10 @@ def exercise1(): # Main menu
         
         if opcion == '1':
             clear()
-            print("""========================
-  Opción en desarrollo
-========================""")
-            #agregar_asignatura(asignaturas)
+            agregar_asignatura(asignaturas)
         elif opcion == '2':
             clear()
-            print("""========================
-  Opción en desarrollo
-========================""")
-            #mostrar_asignaturas(asignaturas)
+            mostrar_asignaturas(asignaturas)
         elif opcion == '3':
             clear()
             print("""========================
