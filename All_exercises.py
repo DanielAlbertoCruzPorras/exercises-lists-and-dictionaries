@@ -1,4 +1,5 @@
 from Exercise1.Menus.Exercise1_main_menu import exercise1
+from Exercise1.Menus.Exercise2_main_menu import exercise2
 # Llamamos a la función exercise1() para ejecutar el programa
 
 while True:
@@ -15,10 +16,12 @@ while True:
         if opcion == '1':
             exercise1()
         elif opcion == '2':
-            print("""========================
+            exercise2()
+        elif opcion == '3':
+             print("""
+========================
   Opcion en desarrollo
 ========================""")
-            #exercise2()
         elif opcion == '0':
             print("Saliendo del programa. ¡Hasta luego!")
             break

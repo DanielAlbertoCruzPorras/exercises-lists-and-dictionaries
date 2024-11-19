@@ -1,12 +1,28 @@
+import os
+import json
+
+ARCHIVO_ASIGNATURAS = "asignaturas.json"
+
+def cargar_asignaturas():
+    if os.path.exists(ARCHIVO_ASIGNATURAS):
+        with open(ARCHIVO_ASIGNATURAS, 'r') as archivo:
+            return json.load(archivo)
+    else:
+        return []  # Si no existe, devolvemos una lista vacía
+
+def guardar_asignaturas(asignaturas):
+    with open(ARCHIVO_ASIGNATURAS, 'w') as archivo:
+        json.dump(asignaturas, archivo, indent=4)
+
 def agregar_asignatura(asignaturas):
-    """Función para agregar una asignatura a la lista si no existe."""
     asignatura = input("Ingrese el nombre de la asignatura: ").strip().upper()
     
     if asignatura in asignaturas:
         print(f"La asignatura '{asignatura}' ya existe en la lista.")
     else:
         asignaturas.append(asignatura)
-        print(f"La asignatura '{asignatura}' ha sido añadida.")
+        guardar_asignaturas(asignaturas)
+        print(f"Asignatura '{asignatura}' agregada correctamente.")
 
 def mostrar_asignaturas(asignaturas):
     """Función para mostrar todas las asignaturas."""
