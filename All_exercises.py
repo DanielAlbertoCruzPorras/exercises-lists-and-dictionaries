@@ -1,8 +1,8 @@
 from Exercise1.Menus.Exercise1_main_menu import exercise1
 from Exercise1.Menus.Exercise2_main_menu import exercise2
 from Exercise1.Menus.Exercise3_main_menu import exercise3
-"""
 from Exercise1.Menus.Exercise4_main_menu import exercise4
+"""
 from Exercise1.Menus.Exercise5_main_menu import exercise5
 from Exercise1.Menus.Exercise6_main_menu import exercise6
 from Exercise1.Menus.Exercise7_main_menu import exercise7
@@ -31,9 +31,9 @@ while True:
             exercise2()
         elif opcion == '3':
             exercise3()
-            """
         elif opcion == '4':
             exercise4()
+            """
         elif opcion == '5':
             exercise5()
         elif opcion == '6':
