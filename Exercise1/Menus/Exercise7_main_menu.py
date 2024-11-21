@@ -7,5 +7,5 @@ def exercise7():
   # Nota: Las posiciones en Python comienzan en 0
   resultado = [letra for i, letra in enumerate(abecedario) if (i + 1) % 3 != 0] #enumerate(abecedario) regresa el índice y el item
   print("Resulting list:", resultado)
-  input("Press enter to continue:")
+  input("\nPress enter to continue:")
   clear()

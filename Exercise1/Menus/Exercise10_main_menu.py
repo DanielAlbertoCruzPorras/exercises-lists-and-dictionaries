@@ -1,4 +1,4 @@
-
+from Exercise1.Functions.Clear_terminal import clear
 
 
 def exercise3():

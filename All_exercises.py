@@ -5,9 +5,9 @@ from Exercise1.Menus.Exercise4_main_menu import exercise4
 from Exercise1.Menus.Exercise5_main_menu import exercise5
 from Exercise1.Menus.Exercise6_main_menu import exercise6
 from Exercise1.Menus.Exercise7_main_menu import exercise7
-"""
 from Exercise1.Menus.Exercise8_main_menu import exercise8
 from Exercise1.Menus.Exercise9_main_menu import exercise9
+"""
 from Exercise1.Menus.Exercise10_main_menu import exercise10
 """
 # Llamamos a la función exercise1() para ejecutar el programa
@@ -22,6 +22,8 @@ while True:
 5. Exercise 5: List of Numbers
 6. Exercise 6: Loosen Subjects
 7. Exercise 7: Alphabet
+8. Exercise 8: Palindrome
+9. Exercise 9: Vowels
 0. Salir
 """)
         # Solicitar la opción del usuario
@@ -42,13 +44,14 @@ while True:
             exercise6()
         elif opcion == '7':
             exercise7()
-            """
         elif opcion == '8':
             exercise8()
         elif opcion == '9':
             exercise9()
+            """
         elif opcion == '10':
-            exercise10()"""
+            exercise10()
+            """
         elif opcion == '0':
             print("Saliendo del programa. ¡Hasta luego!")
             break
