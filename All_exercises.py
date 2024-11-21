@@ -4,8 +4,8 @@ from Exercise1.Menus.Exercise3_main_menu import exercise3
 from Exercise1.Menus.Exercise4_main_menu import exercise4
 from Exercise1.Menus.Exercise5_main_menu import exercise5
 from Exercise1.Menus.Exercise6_main_menu import exercise6
-"""
 from Exercise1.Menus.Exercise7_main_menu import exercise7
+"""
 from Exercise1.Menus.Exercise8_main_menu import exercise8
 from Exercise1.Menus.Exercise9_main_menu import exercise9
 from Exercise1.Menus.Exercise10_main_menu import exercise10
@@ -21,6 +21,7 @@ while True:
 4. Exercise 4: Lottery Numbers
 5. Exercise 5: List of Numbers
 6. Exercise 6: Loosen Subjects
+7. Exercise 7: Alphabet
 0. Salir
 """)
         # Solicitar la opción del usuario
@@ -39,9 +40,9 @@ while True:
             exercise5()
         elif opcion == '6':
             exercise6()
-            """
         elif opcion == '7':
             exercise7()
+            """
         elif opcion == '8':
             exercise8()
         elif opcion == '9':
