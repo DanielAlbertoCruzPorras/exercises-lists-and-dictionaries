@@ -2,8 +2,8 @@ from Exercise1.Menus.Exercise1_main_menu import exercise1
 from Exercise1.Menus.Exercise2_main_menu import exercise2
 from Exercise1.Menus.Exercise3_main_menu import exercise3
 from Exercise1.Menus.Exercise4_main_menu import exercise4
-"""
 from Exercise1.Menus.Exercise5_main_menu import exercise5
+"""
 from Exercise1.Menus.Exercise6_main_menu import exercise6
 from Exercise1.Menus.Exercise7_main_menu import exercise7
 from Exercise1.Menus.Exercise8_main_menu import exercise8
@@ -14,11 +14,12 @@ from Exercise1.Menus.Exercise10_main_menu import exercise10
 
 while True:
         # Mostrar el menú
-        print("""\n--- Menú de Ejercicios ---
-1. Ejercicio 1: Lista de Asignaturas
-2. Ejercicio 2: Asignaturas - Yo estudio...
-3. Ejercicio 3: Notas en cada asignatura
-4. Ejercicio 4: Números de la lotería
+        print("""\n--- Exercise Menu ---
+1. Exercise 1: List of Subjects
+2. Exercise 2: Subjects - I study...
+3. Exercise 3: Grades in each subject
+4. Exercise 4: Lottery Numbers
+5. Exercise 5: List of Numbers
 0. Salir
 """)
         # Solicitar la opción del usuario
@@ -33,9 +34,9 @@ while True:
             exercise3()
         elif opcion == '4':
             exercise4()
-            """
         elif opcion == '5':
             exercise5()
+            """
         elif opcion == '6':
             exercise6()
         elif opcion == '7':
