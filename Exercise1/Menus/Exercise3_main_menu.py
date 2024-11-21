@@ -21,3 +21,5 @@ def exercise3():
         print(f"En {item} has sacado {grade[c]}")
         c += 1
     input("\nPresione enter para continuar")
+    clear()
+    return asignaturas, grade
